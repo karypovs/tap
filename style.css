@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    margin-left: 200px;
+
+}
+.tabs input{
+    display: none;
+}
+.tabs label{
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 174, 0);
+    transition: 0.3;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 17px;
+    margin-top: 30px;
+}
+.tabs label:hover{
+    background: rgba(255, 166, 0, 0.254);
+    color: white;
+}
+#Kochkor:checked ~ .tab1{
+    background: orange;
+    color: white;
+}
+#Osh:checked ~ .tab2{
+    background: orange;
+    color: white;
+}
+#Chuy:checked ~ .tab3{
+    background:orange;
+    color: white;
+}
+#Toktogul:checked ~ .tab4{
+    background: orange;
+    color: white;
+}
+#Naryn:checked ~ .tab5{
+    background: orange;
+    color: white;
+}
+#Batken:checked ~ .tab6{
+    background: orange;
+    color: white;
+}
+#Bishkek:checked ~ .tab7{
+    background: orange;
+    color: white;
+}
+#Ysyk-kol:checked ~ .tab8{
+    background: orange;
+    color: white;
+}
+#Talas:checked ~ .tab9{
+    background: orange;
+    color: white;
+}
+#Jalal-Abad:checked ~ .tab10{
+    background: orange;
+    color: white;
+}
+
+.koch img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.osh img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.chuy img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.tok img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.nar img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.bat img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.bish img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.ysyk img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.tal img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+.jal img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: -800px;
+    margin-left: 400px;
+}
+#Kochkor:checked ~ .osh,
+#Kochkor:checked ~ .chuy,
+#Kochkor:checked ~ .tok,
+#Kochkor:checked ~ .nar,
+#Kochkor:checked ~ .bat,
+#Kochkor:checked ~ .bish,
+#Kochkor:checked ~ .ysyk,
+#Kochkor:checked ~ .tal,
+#Kochkor:checked ~ .jal{
+    display: none;
+}
+#Osh:checked ~ .koch,
+#Osh:checked ~ .chuy,
+#Osh:checked ~ .tok,
+#Osh:checked ~ .nar,
+#Osh:checked ~ .bat,
+#Osh:checked ~ .bish,
+#Osh:checked ~ .ysyk,
+#osh:checked ~ .tal,
+#Osh:checked ~ .jal{
+    display: none;
+}
+#Chuy:checked ~ .koch,
+#Chuy:checked ~ .osh,
+#Chuy:checked ~ .tok,
+#Chuy:checked ~ .nar,
+#Chuy:checked ~ .bat,
+#Chuy:checked ~ .bish,
+#Chuy:checked ~ .ysyk,
+#Chuy:checked ~ .tal,
+#Chuy:checked ~ .jal{
+    display: none;
+}
+#Toktogul:checked ~ .koch,
+#Toktogul:checked ~ .chuy,
+#Toktogul:checked ~ .osh,
+#Toktogul:checked ~ .nar,
+#Toktogul:checked ~ .bat,
+#Toktogul:checked ~ .bish,
+#Toktogul:checked ~ .ysyk,
+#Toktogul:checked ~ .tal,
+#Toktogul:checked ~ .jal{
+    display: none;
+}
+#Naryn:checked ~ .koch,
+#Naryn:checked ~ .chuy,
+#Naryn:checked ~ .tok,
+#Naryn:checked ~ .osh,
+#Naryn:checked ~ .bat,
+#Naryn:checked ~ .bish,
+#Naryn:checked ~ .ysyk,
+#Naryn:checked ~ .tal,
+#Naryn:checked ~ .jal{
+    display: none;
+}
+#Batken:checked ~ .koch,
+#Batken:checked ~ .chuy,
+#Batken:checked ~ .tok,
+#Batken:checked ~ .nar,
+#Batken:checked ~ .osh,
+#Batken:checked ~ .bish,
+#Batken:checked ~ .ysyk,
+#Batken:checked ~ .tal,
+#Batken:checked ~ .jal{
+    display: none;
+}
+#Bishkek:checked ~ .koch,
+#Bishkek:checked ~ .chuy,
+#Bishkek:checked ~ .tok,
+#Bishkek:checked ~ .nar,
+#Bishkek:checked ~ .bat,
+#Bishkek:checked ~ .osh,
+#Bishkek:checked ~ .ysyk,
+#Bishkek:checked ~ .tal,
+#Bishkek:checked ~ .jal{
+    display: none;
+}
+#Ysyk-kol:checked ~ .koch,
+#Ysyk-kol:checked ~ .chuy,
+#Ysyk-kol:checked ~ .tok,
+#Ysyk-kol:checked ~ .nar,
+#Ysyk-kol:checked ~ .bat,
+#Ysyk-kol:checked ~ .bish,
+#Ysyk-kol:checked ~ .osh,
+#Ysyk-kol:checked ~ .tal,
+#Ysyk-kol:checked ~ .jal{
+    display: none;
+}
+#Talas:checked ~ .koch,
+#Talas:checked ~ .chuy,
+#Talas:checked ~ .tok,
+#Talas:checked ~ .nar,
+#Talas:checked ~ .bat,
+#Talas:checked ~ .bish,
+#Talas:checked ~ .ysyk,
+#Talas:checked ~ .osh,
+#Talas:checked ~ .jal{
+    display: none;
+}
+#Jalal-Abad:checked ~ .koch,
+#Jalal-Abad:checked ~ .chuy,
+#Jalal-Abad:checked ~ .tok,
+#Jalal-Abad:checked ~ .nar,
+#Jalal-Abad:checked ~ .bat,
+#Jalal-Abad:checked ~ .bish,
+#Jalal-Abad:checked ~ .ysyk,
+#Jalal-Abad:checked ~ .tal,
+#Jalal-Abad:checked ~ .osh{
+    display: none;
+}
+
+
+
+
